@@ -1,1 +1,1 @@
-puts ("#include <stdio.h>\n#include <stdlib.h>\nint main(void){char a[30000]={0};char *p=a;" + gets.gsub("+", "++(*p);").gsub(">","++p;").gsub("-", "--(*p);").gsub("<", "--p;").gsub(".", "putchar(*p);").gsub(",", "*p=getchar();").gsub("[", "while (*p) {").gsub("]", "}") + "}")
+puts ("#include <stdio.h>\n#include <stdlib.h>\nint main(void){char a[30000]={0};char *p=a;" + gets.gsub(/[^,.\[\]+-><]/, "").gsub("+", "++(*p);").gsub(">","++p;").gsub("-", "--(*p);").gsub("<", "--p;").gsub(".", "putchar(*p);").gsub(",", "*p=getchar();").gsub("[", "while (*p) {").gsub("]", "}") + "}")

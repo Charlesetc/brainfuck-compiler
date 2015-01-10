@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+ruby i.rb > out.c
+gcc out.c
+./a.out
+rm a.out
+rm out.c

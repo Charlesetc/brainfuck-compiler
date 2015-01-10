@@ -4,7 +4,7 @@
 Quite simple to use:
 
 ```
-$ brainfuck hello_world.bf
+$ brainfuck < hello_world.bf
 ```
 
 or
