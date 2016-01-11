@@ -1,5 +1,5 @@
 
-# Brainfuck Interpreter
+# Brainfuck Compiler
 
 Quite simple to use:
 
